@@ -22,6 +22,29 @@
 .brochure{container-type:inline-size}
 .button{display:grid;grid-template-columns:1fr auto}
 .button .arrow{margin-left:0}
+.language{position:relative;display:flex;align-items:center;gap:1cqw}
+.language select{appearance:none;-webkit-appearance:none;background:transparent;border:0;border-radius:0;color:white;font:inherit;padding:1cqw 4cqw 1cqw 0;cursor:pointer;min-height:32px}
+.language select option{background:#fff;color:var(--navy)}
+.language>span{position:absolute;right:0;pointer-events:none}
+.language select:focus-visible{outline:3px solid #fcaf27;outline-offset:4px}
+.steps{gap:.9cqw}.steps i{width:4.2cqw;height:1.35cqw;flex:none}
+.world-map{position:relative}.map-korean{display:none}
+html[lang="ko"]{font-family:Arial,"Malgun Gothic","Apple SD Gothic Neo",sans-serif;word-break:keep-all;overflow-wrap:break-word}
+html[lang="ko"] .hero h1{font-size:10cqw;line-height:1.2}
+html[lang="ko"] .hero h1 span{font-size:6.2cqw;letter-spacing:-.25cqw}
+html[lang="ko"] h2{font-size:9cqw;letter-spacing:-.35cqw;line-height:1.2}
+html[lang="ko"] .thanks h2{font-size:13cqw}
+html[lang="ko"] .risk-card h3{white-space:normal;font-size:4.5cqw}
+html[lang="ko"] .signature{font-family:inherit;font-size:5.7cqw;font-weight:500;line-height:1.5;letter-spacing:-.2cqw}
+html[lang="ko"] .map-korean{display:block;position:absolute;inset:0;pointer-events:none}
+.map-korean span{position:absolute;background:#fcfdff;color:var(--navy);font-size:2.5cqw;line-height:1.35;padding:0 .5cqw;white-space:nowrap}
+.map-korean .map-europe{left:16.3%;top:18.4%;width:10%}
+.map-korean .map-middle-east{left:18.1%;top:44%;width:16%}
+.map-korean .map-africa{left:13.7%;top:59.2%;width:11%}
+.map-korean .map-korea{left:45.7%;top:22.5%;width:10%;color:var(--blue);font-weight:bold}
+.map-korean .map-america{left:80.4%;top:23%;width:19.6%;height:5%;padding-top:.6cqw}
+.map-korean .map-asia{left:80.1%;top:55.5%;width:19.9%;height:5%;padding-top:.6cqw;font-size:2.2cqw}
+.map-korean .map-motto{left:59%;top:72%;width:40%;height:27%;display:flex;align-items:center;justify-content:center;color:#8fb9ff;font-size:3.7cqw;font-style:italic}
 .hero .white{width:90%;padding-left:4.5cqw;font-size:3.8cqw}
 .project-photo figcaption{background:linear-gradient(0deg,#002150 0%,#002c65 85%,#002c6500 100%)}
 .about-photo figcaption{background:linear-gradient(0deg,#001832 0%,#001832 85%,transparent)}

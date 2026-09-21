@@ -36,7 +36,7 @@
 <main class="brochure">
   <!-- 1. COVER: all headings, captions and links below are editable. -->
   <section id="home" class="page hero" aria-labelledby="hero-title">
-    <header class="site-header"><a class="wordmark" href="#home">KSMARTECH</a><div class="header-actions"><span class="language" aria-label="Language: English">EN <span aria-hidden="true">⌄</span></span><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navigation"><span></span><span></span><span></span></button></div></header>
+    <header class="site-header"><a class="wordmark" href="#home">KSMARTECH</a><div class="header-actions"><label class="language"><select id="language-select" aria-label="Language / 언어"><option value="en">EN</option><option value="ko">KR</option></select><span aria-hidden="true">⌄</span></label><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navigation"><span></span><span></span><span></span></button></div></header>
     <nav id="navigation" class="navigation" aria-label="Brochure sections" hidden><a href="#about">Who We Are</a><a href="#why-pqc">Why PQC?</a><a href="#platform">KEY4C Platform</a><a href="#proven">Proven in Korea</a><a href="#global">Global Expansion</a><a href="#contact">Contact Us</a><a href="#thanks">Thank You</a></nav>
     <div class="hero-copy"><div class="accent-line"></div><p class="eyebrow">SECURING<br>A SAFER TOMORROW</p><h1 id="hero-title">Post-Quantum<br>Security<br><span>for a Trusted World</span></h1><p class="hero-intro">KSMARTECH delivers cryptographic<br class="wide-break"> security for the post-quantum era.</p><a class="button white" href="#platform">Explore Our Technology<span class="arrow"><svg><use href="#i-arrow"/></svg></span></a></div>
     <div class="hero-earth" aria-hidden="true"><div class="crop" style="--ratio:450/620;--iw:190.889%;--ix:-80%;--iy:-148.387%"><img src="assets/reference-1.png" alt="" width="859" height="1831"></div></div>
@@ -45,7 +45,7 @@
 
   <!-- 2. ABOUT US -->
   <section id="about" class="page light about" aria-labelledby="about-title">
-    <div class="section-top"><span>01</span><div class="steps" aria-hidden="true"><i class="active"></i><i></i><i></i></div></div>
+    <div class="section-top"><span>01</span><div class="steps" role="img" aria-label="Section 1 of 7"><i class="active"></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
     <div class="section-heading"><p class="kicker">ABOUT US</p><h2 id="about-title">Who We Are</h2><p>KSMARTECH is a security technology<br class="wide-break"> company that protects digital trust<br class="wide-break"> in a more connected world.</p></div>
     <a class="button subtle" href="#why-pqc">Learn more<span class="arrow"><svg><use href="#i-arrow"/></svg></span></a>
     <figure class="about-photo photo-card"><div class="crop" style="--ratio:697/807;--iw:123.242%;--ix:-11.765%;--iy:-76.952%"><img src="assets/reference-2.png" alt="KSMARTECH glass office building under a blue sky" width="859" height="1831" loading="lazy"></div><figcaption><div class="accent-line"></div>Digital Trust<br>for a Better Tomorrow</figcaption></figure>
@@ -54,7 +54,7 @@
 
   <!-- 3. WHY PQC -->
   <section id="why-pqc" class="page light why" aria-labelledby="why-title">
-    <div class="section-top"><span>02</span><div class="steps" aria-hidden="true"><i></i><i class="active"></i><i></i></div></div>
+    <div class="section-top"><span>02</span><div class="steps" role="img" aria-label="Section 2 of 7"><i></i><i class="active"></i><i></i><i></i><i></i><i></i><i></i></div></div>
     <div class="section-heading"><p class="kicker">WHY PQC?</p><h2 id="why-title">Why PQC?</h2><p>Quantum computing is changing<br class="wide-break"> the rules of security. Now is the time<br class="wide-break"> to prepare for what’s next.</p></div>
     <div class="risk-list"><article class="risk-card"><span class="icon-disc"><svg class="icon"><use href="#i-atom"/></svg></span><div><h3>Quantum Threat</h3><p>The evolution of quantum computing threatens existing cryptography.</p></div></article><article class="risk-card"><span class="icon-disc"><svg class="icon"><use href="#i-database"/></svg></span><div><h3>Long-Term Risk</h3><p>Data captured today<br>may be decrypted<br>tomorrow (HNDL).</p></div></article><article class="risk-card"><span class="icon-disc"><svg class="icon"><use href="#i-shield"/></svg></span><div><h3>Critical Infrastructure</h3><p>Financial and public services require proactive and strategic transition.</p></div></article></div>
     <a class="button subtle" href="#platform">Learn more<span class="arrow"><svg><use href="#i-arrow"/></svg></span></a>
@@ -62,7 +62,7 @@
 
   <!-- 4. KEY4C: section numbering follows the supplied artwork. -->
   <section id="platform" class="page light platform" aria-labelledby="platform-title">
-    <div class="section-top"><span>04</span><div class="steps" aria-hidden="true"><i></i><i></i><i class="active"></i></div></div>
+    <div class="section-top"><span>04</span><div class="steps" role="img" aria-label="Section 3 of 7"><i></i><i></i><i class="active"></i><i></i><i></i><i></i><i></i></div></div>
     <div class="section-heading"><p class="kicker">KEY4C PLATFORM</p><h2 id="platform-title">KEY4C Security<br>Platform</h2><p>All security begins with a trusted Root of Trust.<br>KEY4C provides integrated security services<br>based on HSM.</p></div>
     <div class="platform-diagram" aria-label="KEY4C integrates six security services"><div class="orbit" aria-hidden="true"></div><div class="platform-core"><strong>KEY4C</strong><span>Security Platform</span></div><article class="service hsm"><svg class="icon"><use href="#i-server"/></svg><h3>HSM</h3><p>Core Security</p></article><article class="service kms"><svg class="icon"><use href="#i-gear"/></svg><h3>KMS</h3><p>Key Lifecycle<br>Management</p></article><article class="service ca"><svg class="icon"><use href="#i-cert"/></svg><h3>Private CA</h3><p>Trusted<br>Certificates</p></article><article class="service folder"><svg class="icon"><use href="#i-folder"/></svg><h3>Secure Folder</h3><p>Data Protection</p></article><article class="service secret"><svg class="icon"><use href="#i-database"/></svg><h3>Secret<br>Management</h3><p>K8s Secret Plugin</p></article><article class="service otp"><svg class="icon"><use href="#i-shield"/></svg><h3>OTP</h3><p>Strong<br>Authentication</p></article></div>
     <a class="button primary" href="#contact">Explore KEY4C Services<span class="arrow"><svg><use href="#i-arrow"/></svg></span></a>
@@ -70,7 +70,7 @@
 
   <!-- 5. PROVEN IN KOREA -->
   <section id="proven" class="page light proven" aria-labelledby="proven-title">
-    <div class="section-top"><span>05</span><div class="steps" aria-hidden="true"><i></i><i></i><i class="active"></i></div></div>
+    <div class="section-top"><span>05</span><div class="steps" role="img" aria-label="Section 4 of 7"><i></i><i></i><i></i><i class="active"></i><i></i><i></i><i></i></div></div>
     <div class="section-heading"><p class="kicker">PROVEN IN KOREA</p><h2 id="proven-title">Proven in Korea</h2><p>We are currently validating Hybrid-PQC<br>technology in real financial environments.</p></div>
     <figure class="project-photo photo-card"><div class="crop" style="--ratio:687/589;--iw:125.036%;--ix:-12.809%;--iy:-72.496%"><img src="assets/reference-5.png" width="859" height="1828" alt="Financial institution architecture in Korea" loading="lazy"></div><figcaption><strong>2026<br>Korea PQC<br>Pilot Project</strong><span>Financial Services</span></figcaption></figure>
     <div class="project-grid"><article><span class="icon-disc"><svg class="icon"><use href="#i-lock"/></svg></span><h3>E2E Encryption</h3><p>End-to-end<br>security</p></article><article><span class="icon-disc"><svg class="icon"><use href="#i-cert"/></svg></span><h3>Digital Certificate</h3><p>PQC-based<br>certificate</p></article><article><span class="icon-disc"><svg class="icon"><use href="#i-edit"/></svg></span><h3>Digital Signature</h3><p>Secure and trusted<br>transactions</p></article><article><span class="icon-disc"><svg class="icon"><use href="#i-key"/></svg></span><h3>Key Management</h3><p>Secure key lifecycle<br>management</p></article></div>
@@ -79,9 +79,9 @@
 
   <!-- 6. GLOBAL EXPANSION: the supplied map is kept as an illustration. -->
   <section id="global" class="page light global" aria-labelledby="global-title">
-    <div class="section-top"><span>06</span><div class="steps" aria-hidden="true"><i></i><i></i><i class="active"></i></div></div>
+    <div class="section-top"><span>06</span><div class="steps" role="img" aria-label="Section 5 of 7"><i></i><i></i><i></i><i></i><i class="active"></i><i></i><i></i></div></div>
     <div class="section-heading"><p class="kicker">GLOBAL EXPANSION</p><h2 id="global-title">Toward a<br>Safer World</h2><p>KSMARTECH expands global partnerships<br>to build a more secure digital world.</p></div>
-    <figure class="world-map"><div class="crop" style="--ratio:752/490;--iw:114.229%;--ix:-7.314%;--iy:-103.061%"><img src="assets/reference-6.png" width="859" height="1828" alt="Security Without Borders: Korea connected to Europe, the Middle East, Africa, North America and Asia-Pacific." loading="lazy"></div></figure>
+    <figure class="world-map"><div class="crop" style="--ratio:752/490;--iw:114.229%;--ix:-7.314%;--iy:-103.061%"><img src="assets/reference-6.png" width="859" height="1828" alt="Security Without Borders: Korea connected to Europe, the Middle East, Africa, North America and Asia-Pacific." loading="lazy"></div><div class="map-korean" aria-hidden="true"><span class="map-europe">유럽</span><span class="map-middle-east">중동</span><span class="map-africa">아프리카</span><span class="map-korea">한국</span><span class="map-america">북미</span><span class="map-asia">아시아·태평양</span><span class="map-motto">국경 없는 보안</span></div></figure>
     <div class="stats"><div><svg class="icon"><use href="#i-globe"/></svg><strong>10+</strong><p>Global<br>Partners</p></div><div><svg class="icon"><use href="#i-building"/></svg><strong>5+</strong><p>Target<br>Markets</p></div><div><svg class="icon"><use href="#i-shield"/></svg><strong>1</strong><p>Stronger<br>Tomorrow</p></div></div>
     <blockquote><span aria-hidden="true">“</span><div><p>We believe in a world where<br>all digital keys are safe.”</p><cite>KSMARTECH</cite></div></blockquote>
     <a class="button primary" href="#contact">Partner with Us<span class="arrow"><svg><use href="#i-arrow"/></svg></span></a>
@@ -89,7 +89,7 @@
 
   <!-- 7. CONTACT: update the email, phone and website here. -->
   <section id="contact" class="page light contact" aria-labelledby="contact-title">
-    <div class="section-top"><span>07</span><div class="steps" aria-hidden="true"><i></i><i></i><i class="active"></i></div></div>
+    <div class="section-top"><span>07</span><div class="steps" role="img" aria-label="Section 6 of 7"><i></i><i></i><i></i><i></i><i></i><i class="active"></i><i></i></div></div>
     <div class="section-heading"><p class="kicker">LET’S GET STARTED</p><h2 id="contact-title">Work Together<br>for a Safer Tomorrow</h2><p>Connect with KSMARTECH.<br>We are ready to build a more secure future<br>with you.</p></div>
     <div class="contact-grid"><a href="mailto:sales@ksmartech.com"><span class="icon-disc"><svg class="icon"><use href="#i-mail"/></svg></span><h3>Email</h3><p>sales@ksmartech.com</p></a><a href="tel:+827075101001"><span class="icon-disc"><svg class="icon"><use href="#i-phone"/></svg></span><h3>Call</h3><p>070-7510-1001</p></a><a href="mailto:sales@ksmartech.com?subject=KSMARTECH%20Consultation"><span class="icon-disc"><svg class="icon"><use href="#i-chat"/></svg></span><h3>Inquiry</h3><p>Contact us<br>for a consultation</p></a></div>
     <a class="button primary" href="mailto:sales@ksmartech.com?subject=KSMARTECH%20Partnership%20Inquiry">Contact Us<span class="arrow"><svg><use href="#i-arrow"/></svg></span></a>
@@ -100,7 +100,7 @@
 
   <!-- 8. THANK YOU -->
   <section id="thanks" class="page light thanks" aria-labelledby="thanks-title">
-    <div class="section-top"><span>08</span><div class="steps" aria-hidden="true"><i></i><i></i><i class="active"></i></div></div>
+    <div class="section-top"><span>08</span><div class="steps" role="img" aria-label="Section 7 of 7"><i></i><i></i><i></i><i></i><i></i><i></i><i class="active"></i></div></div>
     <div class="section-heading"><p class="kicker">KSMARTECH</p><h2 id="thanks-title">Thank You</h2><p>A more secure tomorrow,<br>together with you.</p></div>
     <p class="signature">Trusted Security<br><span>for a Brighter Tomorrow</span></p>
     <div class="thanks-earth"><div class="crop" style="--ratio:752/348;--iw:114.229%;--ix:-7.314%;--iy:-195.402%"><img src="assets/reference-8.png" width="859" height="1828" loading="lazy" alt="A connected Earth at sunrise"></div></div>
